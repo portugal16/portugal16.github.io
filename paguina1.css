@@ -151,3 +151,30 @@ color: crimson;
     font-size: 150%;
 color: crimson;
   }
+textarea{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(222, 73, 19);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    border-radius: 15px;
+    border-color: blueviolet;
+    
+}
+
+input{
+    background-color: rgb(242, 252, 216);
+    width: 475px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: blue;
+    font-family: Algerian;
+    font-size: smaller;
+    text-align: center;
+}
+
+#Archivo{
+    background-color: blue;
+    color:orange;
+}
