@@ -1,0 +1,183 @@
+body{
+    background-color: rgb(226, 202, 202);
+    background-image: url('red.jpg');
+    color: #ffffff;
+}
+div {
+  border: 3px solid lightgrey;
+  padding: 15px 15px 15px 15px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #d430a3;
+  color: rgb(255, 248, 255);
+}
+
+
+caption {
+    font-family: 'Rock Salt', cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: rgb(228, 57, 213);
+    text-align: right;
+    letter-spacing: 1px;
+    background-color: powderblue;
+  transition: 0.5s;
+  }
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(109, 28, 8);
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  thead th:nth-child(5) {
+    width: 15%;
+  }
+
+
+  th, td {
+    padding: 20px;
+  }
+  html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  }
+  
+  thead th, tfoot th {
+    font-family: 'Rock Salt', cursive;
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  thead, tfoot {
+    background: url(red.jpg);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: 3px solid rgb(241, 82, 43);
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #611414;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #862c25;
+  }
+  
+  tbody tr {
+    background-image: url(noise.png);
+  }
+  
+  table {
+    background-color: #5f180f;
+  }
+  a{
+    color: rgb(250, 243, 243);
+  }
+  a:link{
+    text-decoration: none;
+  }
+  a:hover {
+    color: #9c1907;
+    cursor: pointer;
+  }
+  img{
+    height: 300px;
+    width: 300px;
+    margin: 15px 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+ 
+img:hover {
+    height: 133px;
+    width: 400px;
+    margin-left: -50px;
+}
+p{
+  margin: 20px;
+    border: 5px solid #eee;
+    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    font-family: "Courier New", monospace;
+    font-size: 100%;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font: oblique bold 120% cursive ;
+}
+ 
+p:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+}
